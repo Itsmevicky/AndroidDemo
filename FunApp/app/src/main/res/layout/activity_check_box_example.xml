@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckBoxExample">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza"
+        android:textSize="24sp"
+        android:id="@+id/cb1"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="60dp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sandwich"
+        android:textSize="24sp"
+        android:id="@+id/cb2"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="60dp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burger"
+        android:textSize="24sp"
+        android:id="@+id/cb3"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="60dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Bill"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:onClick="show_the_bill"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Give your Valuable Feedback"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg"
+            android:orientation="horizontal"
+            >
+
+         <RadioButton
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/Rb1"
+             android:layout_weight="1"
+             android:width="0dp"
+             android:text="good"
+             android:textSize="14sp"
+             />
+          <RadioButton
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:width="0dp"
+              android:layout_weight="1"
+              android:id="@+id/Rb2"
+              android:text="Average"
+              android:textSize="14sp"
+              />
+        </RadioGroup>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate"
+        android:textSize="30sp"
+        android:background="@color/colorPrimary"
+        android:onClick="Rating"
+        />
+
+</LinearLayout>

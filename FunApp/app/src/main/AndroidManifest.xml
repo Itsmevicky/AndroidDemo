@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.funapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".fairCalculation"></activity>
+        <activity android:name=".Pizza_ordering"></activity>
+        <activity android:name=".sharedPreference" />
+        <activity android:name=".ToursAndTravels" />
+        <activity android:name=".CheckBoxExample" />
+        <activity android:name=".WebviewActivity" />
+        <activity android:name=".fairCalculation" />
         <activity android:name=".Calculator" />
         <activity android:name=".ReceiveDataActivity" />
         <activity android:name=".MainActivity">

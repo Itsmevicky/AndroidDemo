@@ -31,5 +31,34 @@
         android:text="Lab Evaluation 1"
         android:onClick="calculate_charges"
         />
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WebView Demo"
+        android:onClick="web_view"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox Example"
+        android:onClick="check_box"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tours and Travels"
+        android:onClick="tours_and_travels"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shared Preferences"
+        android:onClick="shared_pref"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lab Evaluation 2"
+        android:onClick="pizza_ordering"
+        />
 </LinearLayout>

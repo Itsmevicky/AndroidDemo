@@ -52,4 +52,29 @@ public class MainActivity extends AppCompatActivity {
         fairCalulation.putExtra("train", trainNo);
         startActivity(fairCalulation);
     }
+
+    public void web_view(View view) {
+        Intent webview = new Intent(this,WebviewActivity.class);
+        startActivity(webview);
+    }
+
+    public void check_box(View view) {
+        Intent check_box = new Intent(this,CheckBoxExample.class);
+        startActivity(check_box);
+    }
+
+    public void tours_and_travels(View view) {
+        Intent tours_and_travels = new Intent(this, ToursAndTravels.class);
+        startActivity(tours_and_travels);
+    }
+
+    public void shared_pref(View view) {
+        Intent shared_pref = new Intent(this,sharedPreference.class);
+        startActivity(shared_pref);
+    }
+
+    public void pizza_ordering(View view) {
+        Intent pizza_ordering = new Intent(this,Pizza_ordering.class);
+        startActivity(pizza_ordering);
+    }
 }
